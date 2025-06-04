@@ -32,7 +32,7 @@
 ```
 
 或直接下载JAR文件：
-[liulinsi-MiniIO-Util-5.0.jar](http://103.30.78.167:9000/aaa/liulinsi-MiniIO-Util-5.0.jar)
+[liulinsi-MiniIO-Util-5.0.jar](http://oss.sugarli.top:9000/aaa/liulinsi-MiniIO-Util-5.0.jar)
 
 ## 快速开始
 
@@ -87,7 +87,7 @@ public ResponseEntity<?> uploadFile(@RequestParam("file") MultipartFile file) {
 
 ### 文件删除
 ```java
-minIO.deleteObject("http://103.30.78.167:9000/bucket/file.ext");
+minIO.deleteObject("http://your_ip:9000/bucket/file.ext");
 ```
 
 ### 文件信息查询
@@ -100,7 +100,7 @@ System.out.println(bucketInfo);
 
 **查询单个文件信息：**
 ```java
-String fileInfo = minIO.info("http://103.30.78.167:9000/bucket/file.ext");
+String fileInfo = minIO.info("http://your_ip:9000/bucket/file.ext");
 System.out.println(fileInfo);
 ```
 
