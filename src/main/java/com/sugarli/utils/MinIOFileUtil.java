@@ -14,7 +14,7 @@ import java.nio.file.Files;
 import java.util.Arrays;
 
 public class MinIOFileUtil {
-    private String ENDPOINT = "http://103.30.78.167:9000";
+    private String ENDPOINT = "http://your_ip:9000";
     private String ACCESS_KEY_ID;
     private String ACCESS_KEY_SECRET;
     private String BUCKET_NAME;
